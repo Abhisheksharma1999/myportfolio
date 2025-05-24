@@ -9022,6 +9022,36 @@ p.has-drop-cap:not(:focus):first-letter {
 .sp-thumbnail{
 	 margin-top: -330px;
 }
+.neopgy-heading {
+  font-size: 28px; /* Bigger text */
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for the skill icons */
+.neopgy-icon {
+  width: 80px;  /* Larger icons */
+  height: 80px;
+  margin: 15px;
+  transition: transform 0.3s ease;
+}
+
+/* Optional hover effect */
+.neopgy-icon:hover {
+  transform: scale(1.15);
+}
+
+/* Container to align icons */
+.neopgy-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
 
 .blocks-gallery-grid {
   display: flex;
