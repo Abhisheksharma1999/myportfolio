@@ -9019,6 +9019,9 @@ p.has-drop-cap:not(:focus):first-letter {
 
 .column-galary .section-title .title {
   font-size: 40px; }
+.sp-thumbnail{
+	 margin-top: -351px;
+}
 
 .blocks-gallery-grid {
   display: flex;
